@@ -5,12 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * The Image class.
- *
- * @author Alexander Maximenya
- * @version 2017-09-19
- */
 @Entity
 @Table(schema = "PRODUCT_DB", name = "MODEL_IMAGE")
 public class Image {

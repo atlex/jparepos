@@ -6,12 +6,6 @@ import org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoCon
 
 import java.io.IOException;
 
-/**
- * The Application class.
- *
- * @author Alexander Maximenya
- * @version 2017-09-19
- */
 @SpringBootApplication(exclude = RepositoryRestMvcAutoConfiguration.class) //Disables default rest mappings
 public class Application {
     public static void main(String[] args) throws IOException {
