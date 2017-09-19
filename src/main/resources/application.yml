@@ -1,0 +1,26 @@
+# SHARED CONFIG
+
+logging:
+  file: "./log/app-log"
+
+spring:
+  application:
+    name: "JPA Repositories"
+  main:
+      banner-mode: "off"
+
+---
+# LOCAL
+spring:
+  profiles: local
+
+---
+# DEV
+spring:
+  profiles: dev
+
+---
+
+# QA
+spring:
+  profiles: qa
